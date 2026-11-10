@@ -9,7 +9,7 @@ import numpy as np
 
 
 BG_WINDOW = 15  # размер окна для фона
-MIN_CONTRAST = 15  # насколько точка ярче фона
+MIN_CONTRAST = 30  # насколько точка ярче фона
 MAX_TARGET_SIZE = 9  # максимальный размер цели, пикс.
 MIN_PIXELS = 2  # минимум пикселей в цели
 
