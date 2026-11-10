@@ -1,11 +1,11 @@
-import argparse  # разбор аргументов запуска
-import csv  # запись таблицы результатов
-import sys  # выход из программы
-from collections import deque  # очередь для обхода пикселей
-from pathlib import Path  # удобная работа с путями
+import argparse
+import csv
+import sys
+from collections import deque
+from pathlib import Path
 
-import cv2  # чтение и рисование картинок
-import numpy as np  # массивы и математика
+import cv2
+import numpy as np
 
 
 BG_WINDOW = 15  # размер окна для фона
